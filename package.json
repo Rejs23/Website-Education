@@ -1,0 +1,24 @@
+{
+  "name": "webedu",
+  "version": "1.0.0",
+  "description": "Website Education for school task use tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "saekyo",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rejs23/Website-Education"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1"
+  },
+  "dependencies": {
+    "rickroll.js": "0.0.0"
+  }
+}
